@@ -1,7 +1,7 @@
 {
-  "type": "module",
-  "name": "cli-tool",
+  "name": "create-wevioo-frontend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,13 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "colors": "^1.4.0",
-    "fs-extra": "^11.2.0",
-    "inquirer": "^10.1.8",
-    "lodash.set": "^4.3.2",
-    "ora": "^8.0.1",
-    "shelljs": "^0.8.5"
-  }
+    "@clack/prompts": "^0.7.0",
+    "picocolors": "^1.0.1"
+  },
+  "type": "module"
 }
